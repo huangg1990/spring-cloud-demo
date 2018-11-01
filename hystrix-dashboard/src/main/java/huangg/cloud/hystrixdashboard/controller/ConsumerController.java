@@ -19,7 +19,7 @@ public class ConsumerController {
 
 
     @RequestMapping("/hello/{name}")
-    public String hello(@PathVariable("name") String name) {
+    public String hello2(@PathVariable("name") String name) {
         return helloRemote.hello(name);
     }
 
